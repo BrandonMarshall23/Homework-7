@@ -7,5 +7,8 @@ class TestFizzBuzz(unittest.TestCase):
         self.assertEqual(fizzbuzz.process(20), 'Buzz')
     def test_fizzbuzz(self):
         self.assertEqual(fizzbuzz.process(15), 'FizzBuzz')
+    def test_regular_numbers(self):
+        self.assertEqual(fizzbuzz.process(2), 2)
+        self.assertEqual(fizzbuzz.process(98), 98)
 if __name__ == '__main__':
     unittest.main()
