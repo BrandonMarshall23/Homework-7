@@ -5,5 +5,7 @@ class TestLeapYear(unittest.TestCase):
        self.assertEqual(leap_year.process, True)
     def div_by_100(self):
        self.assertEqual(leap_year.process, True)
+    def div_by_400(self):
+       self.assertEqual(leap_year.process, True)
 if __name__ == '__main__':
     unittest.main()
