@@ -5,3 +5,10 @@ def process(number):
        return True
        if number % 400 == 0:
           return 'Leap Year'
+       else:
+        return False
+    else:
+      return False
+  else:
+    return False
+    
